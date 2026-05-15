@@ -13,8 +13,7 @@
 
 .main{
   padding: 40px 0;
-  width: 100%;
-  background-color: blueviolet;
+  width: 100%;  
   background-image: url('./img/background.png');
 background-position: center;
 background-size: cover;

@@ -9,7 +9,7 @@ function Main(){
               <h3>Landing page</h3>
             </div>
             <div className="item-menu">
-              <a href="#">Login</a>
+              <a href="https://marciodutra.rf.gd/">Login</a>
             </div>
         </div>
 

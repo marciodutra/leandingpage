@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center{
+  width: 100%;
+  padding: 0 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+.main{
+  padding: 40px 0;
+  width: 100%;
+  background-color: blueviolet;
+  background-image: url('./img/background.png');
+background-position: center;
+background-size: cover;
+  min-height: 400px;
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu h3{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3px 8px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* FORM */
+
+.form{
+  width: 100%;
+  max-width: 600px;
+
+  margin: 40px auto;
+  padding: 20px; 
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form h2{
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.form form{
+  width: 100%;
+}
+
+.form h2{
+  color: wheat;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.items-form{  
+
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 15px;
+}
+
+.items-form input[type=text]{
+  width: 45%;
+  height: 35px;
+  margin: 8px 10px;
+  padding-left: 10px;
+}
+
+.items-form input[type=submit]{
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: wheat;
+  border: 0;
+  font-size: 19px;  
+}
+
+.conteudo-single{
+  width: 50%;
+  padding: 8px 30px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+.items-form input[type=text]{
+  width: 100%;  
+}
+
+.conteudo-single {width: 100%}
 }

@@ -24,7 +24,7 @@ function Conteudo() {
             realmente importa: construir soluções incríveis. Código limpo.
             Desenvolvimento rápido. Resultados reais.
           </p>
-          <a className="cta-link" href="#contact-heading">
+          <a className="cta-link" href="#contato">
             Começar agora →
           </a>
         </article>

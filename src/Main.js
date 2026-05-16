@@ -18,7 +18,7 @@ function Main() {
           </div>
         </nav>
 
-        <section className="form-card" aria-labelledby="contact-heading">
+        <section id="contato" className="form-card" aria-labelledby="contact-heading">
           <p className="form-card__eyebrow">Fale conosco</p>
           <h2 id="contact-heading">Entre em contato!</h2>
           <p className="form-card__lead">

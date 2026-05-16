@@ -27,13 +27,13 @@ background-size: cover;
 }
 
 .menu h3{
-  color: white;
+  color: wheat;
 }
 
 .menu a{
-  color: white;
+  color: wheat;
   text-decoration: none;
-  border: 1px solid white;
+  border: 1px solid wheat;
   padding: 3px 8px;
   border-radius: 5px;
 }
